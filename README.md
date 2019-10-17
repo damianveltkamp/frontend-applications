@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ConceptSite
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.9.
@@ -25,3 +26,6 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+=======
+# frontend-applications
+>>>>>>> e381577e69afd3ab918e9a28aaa5e70d67060838

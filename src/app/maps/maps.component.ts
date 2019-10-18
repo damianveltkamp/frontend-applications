@@ -1,5 +1,14 @@
 import { Component, OnInit } from '@angular/core';
 import * as L from 'leaflet';
+import icon from 'leaflet/dist/images/marker-icon.png';
+import iconShadow from 'leaflet/dist/images/marker-shadow.png';
+
+let DefaultIcon = L.icon({
+    iconUrl: icon,
+    shadowUrl: iconShadow
+});
+
+L.Marker.prototype.options.icon = DefaultIcon;
 @Component({
     selector: 'app-maps',
     templateUrl: './maps.component.html',
@@ -31,7 +40,6 @@ export class MapsComponent implements OnInit {
 
     // Loop through markers
     for(let i = 0;i < planes.length;i++) {
-        console.log(planes[i]);
         addMarker(planes[i]);
     }
 

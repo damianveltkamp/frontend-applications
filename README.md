@@ -5,7 +5,6 @@ The user can select area's on the map of which he/she wants to see the cultural 
 ## Table of contents
 * [Concept](#concept)
 * [Application description](#application-description)
-* [Live demo](#live-demo)
 * [Installing](#installing)
 
 ## Concept
@@ -28,9 +27,6 @@ This application's main target audience are elementary school kids who want to l
 
 ## Application description
 This application is build on the Angular framework and uses Typescript, Html and SCSS. The cultural heritage objects are retrieved from the [Netwerk digitaal erfgoed api](https://data.netwerkdigitaalerfgoed.nl/)
-
-## Live demo
-TODO: Live demo link plaatsen
 
 ## Installing
 To install this application navigate to the folder you want the application to be contained by.

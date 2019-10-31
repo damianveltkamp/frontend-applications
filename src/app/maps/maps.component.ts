@@ -54,7 +54,10 @@ export class MapsComponent implements OnInit {
                 // Wanneer de feature geen popup content heeft, voeg geen popup toe
                 if(!feature.properties.popupTitle && !feature.properties.popupContent && !feature.properties.linkurl) {
             } else {
-                layer.bindPopup("<h1>"+feature.properties.popupTitle+"</h1>"+"<p>"+feature.properties.popupContent+"</p>");
+                layer.bindPopup(
+                    "<h1>"+feature.properties.popupTitle+"</h1>"+"<p>"+feature.properties.popupContent+"</p>"+
+                    "<a href='"+feature.properties.popupLink+"'>"
+                    +"Bekijk collectie"+"</a>");
             }
             }
         }).addTo(map);

@@ -4,9 +4,9 @@
     {
       "type": "Feature",
       "properties": {
-          "popupTitle": "Hallo dit is popup1",
-          "popupContent": "Dit is de content van de popup",
-          "popupLink": "linkurl"
+          "popupTitle": "Bali",
+          "popupContent": "Ontdek de prachtige culturele objecten van Bali!",
+          "popupLink": "overview?nation=bali"
       },
       "geometry": {
         "type": "Polygon",
@@ -343,76 +343,6 @@
           ]
         ]
       }
-  },
-    {
-      "type": "Feature",
-      "properties": {
-          "popupTitle": "Hallo dit is popup2",
-          "popupContent": "Dit is de content van de popup",
-          "popupLink": "linkurl"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              114.64370727539061,
-              -8.00687672241077
-            ],
-            [
-              114.64096069335936,
-              -8.072146836335435
-            ],
-            [
-              114.73365783691406,
-              -8.063308790453595
-            ],
-            [
-              114.64370727539061,
-              -8.00687672241077
-            ]
-          ]
-        ]
-      }
-  },
-  {
-      "type": "Feature",
-      "properties": {},
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              114.44732666015625,
-              -7.893309042669556
-            ],
-            [
-              114.44114685058594,
-              -7.977637753504988
-            ],
-            [
-              114.61692810058594,
-              -7.977637753504988
-            ],
-            [
-              114.59632873535155,
-              -7.917113252534591
-            ],
-            [
-              114.5269775390625,
-              -7.892628902220023
-            ],
-            [
-              114.49813842773438,
-              -7.872904342684437
-            ],
-            [
-              114.44732666015625,
-              -7.893309042669556
-            ]
-          ]
-        ]
-      }
-    }
+  }
   ]
 }

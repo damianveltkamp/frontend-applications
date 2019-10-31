@@ -1,0 +1,13 @@
+<div class="overview overview--overlay">
+    <div class="overview--close">
+        <a href=""></a>
+    </div>
+    <div class="overview--carousel">
+        <div class="overview--carousel--items">
+            <div class="overview--carousel--item" *ngFor="let item of output">
+                <h2>{{item.title.value}}</h2>
+                <img src="{{item.imageUrl.value}}">
+            </div>
+        </div>
+    </div>
+</div>

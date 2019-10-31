@@ -23,6 +23,9 @@ Categories can ofcourse be expanded when this is desired.
 
 <img src="src/assets/images/concept2.png">
 
+### Target audience
+This application's main target audience are elementary school kids who want to learn about a specific culture, or can use this application to help them with school projects when it comes to culture's around the world. The main goal is to teach these children about these culture's.
+
 ## Application description
 This application is build on the Angular framework and uses Typescript, Html and SCSS. The cultural heritage objects are retrieved from the [Netwerk digitaal erfgoed api](https://data.netwerkdigitaalerfgoed.nl/)
 

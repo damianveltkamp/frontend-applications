@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { MapsComponent } from './maps/maps.component';
 
 import { HttpClientModule } from '@angular/common/http';
+import { OverviewComponent } from './overview/overview.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    MapsComponent
+    MapsComponent,
+    OverviewComponent
   ],
   imports: [
     BrowserModule,

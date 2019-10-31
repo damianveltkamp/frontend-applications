@@ -10,7 +10,7 @@ The user can select area's on the map of which he/she wants to see the cultural 
 
 ## Concept
 The concept of this application revolves around navigating the world map and discorering how culture's lived. This can be done by clicking on a highlighted area of the map, when the user does this he/she wil get some information about the area that he/she just clicked, and the option to dive into the collection of cultural heritage objects for that area of the map. 
-!![](assetes/images/concept1.png)
+!![](src/assetes/images/concept1.png)
 
 The objects are devided in a few categories
 * Clothing
@@ -18,7 +18,7 @@ The objects are devided in a few categories
 * Religion
 * Weapons
 Categories can ofcourse be expanded when this is desired.
-![](assets/images/concept2.png)
+![](src/assets/images/concept2.png)
 
 ## Application description
 This application is build on the Angular framework and uses Typescript, Html and SCSS. The cultural heritage objects are retrieved from the [Netwerk digitaal erfgoed api](https://data.netwerkdigitaalerfgoed.nl/)

@@ -38,6 +38,15 @@ After navigating to the folder, paste this command into your terminal:
 ```
 git clone https://github.com/damian1997/frontend-applications.git
 ```
+Install the angular CLI
+```
+npm install -g @angular/cli
+```
+Install packages
+```
+npm install
+```
+
 ### Packages
 This application makes use of the following packages
 * [Leaflet](https://leafletjs.com/)

@@ -50,3 +50,13 @@ npm install
 ### Packages
 This application makes use of the following packages
 * [Leaflet](https://leafletjs.com/)
+
+## Credits
+Credits go out to [Laurens](https://github.com/Razpudding), [Danny](https://github.com/dandevri) and Robert (have not been able to find your github *SADFACE*) for profiding us with all the information we need to get through this course.
+
+### Honourable mentions
+* [Thanks for helping, Lennart de Knikker](https://github.com/lennartdeknikker)
+* [Thanks for helping, Mohamad Al Ghorani](https://github.com/MohamadAlGhorani)
+* [Thanks for helping, Marc Kunst](https://github.com/MarcKunst/)
+* [Thanks for helping, Marissa Verdonck](https://github.com/marissaverdonck)
+* [Thanks for helping, Patrick van Everdingen](https://github.com/patrick-ve)

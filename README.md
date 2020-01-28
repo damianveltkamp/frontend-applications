@@ -1,4 +1,4 @@
-HEEY 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/b2c741e4-ee5e-4da6-8737-eb503a7f484c/deploy-status)](https://app.netlify.com/sites/jolly-leakey-d3ca52/deploys)
 # Web app for exploring cultural heritage objects based on geolocations
 This webapp displays cultural heritage objects from around the world based on geolocations.
 The user can select area's on the map of which he/she wants to see the cultural heritage objects.

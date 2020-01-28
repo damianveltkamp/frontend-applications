@@ -1,0 +1,70 @@
+.overview {
+    &--close {
+        position: relative;
+        z-index: 100;
+        padding: 20px;
+        a {
+            padding: 10px;
+            position: relative;
+            &:before {
+                position: absolute;
+                top: -5px;
+                left: 10px;
+                content: '';
+                display: block;
+                width: 2px;
+                height: 50px;
+                background: #fff;
+                transform: rotate(45deg);
+            }
+            &:after {
+                position: absolute;
+                top: -5px;
+                left: 10px;
+                content: '';
+                display: block;
+                width: 2px;
+                height: 50px;
+                background: #fff;
+                transform: rotate(-45deg);
+            }
+        }
+    }
+    &--overlay {
+        position: absolute;
+        z-index: 10;
+        top: 0;
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%);
+        height: 50%;
+        width: 50%;
+        background: rgba(0,41,81,.8);
+    }
+    &--carousel {
+        overflow: hidden;
+        white-space: nowrap;
+        position: relative;
+        &--items {
+            position: relative;
+            left: 0;
+            width: 100%;
+            -webkit-transition: left .5s ease-in-out;
+            transition: left .5s ease-in-out;
+            z-index: 1;
+            h2 {
+                color: #fff;
+            }
+        }
+        &--item {
+            display: inline-block;
+            vertical-align: middle;
+            position: relative;
+            white-space: normal;
+            img {
+                height: 250px;
+                width: 100%;
+            }
+        }
+    }
+}
